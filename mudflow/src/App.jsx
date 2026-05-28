@@ -24,7 +24,7 @@ export default function App() {
   <img
     src="/images/logo.png"
     alt="Mudflow Logo"
-    className="h-24 md:h-32 w-auto""
+     className="h-40 md:h-56 w-auto"
   />
 </div>
 
