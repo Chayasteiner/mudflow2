@@ -98,7 +98,7 @@ export default function App() {
             <div className="rounded-[2rem] overflow-hidden shadow-2xl bg-white">
              <div className="aspect-square overflow-hidden">
   <img
-    src="/images/hero.jpg"
+    src="/images/Water Dispenser1.jpg"
     alt="Mudflow"
     className="w-full h-full object-cover"
   />
