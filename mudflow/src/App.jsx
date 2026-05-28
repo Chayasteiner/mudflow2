@@ -20,19 +20,13 @@ export default function App() {
   return (
     <div className="min-h-screen bg-[#f6efe3] text-[#2b2118]">
       <header className="px-6 md:px-12 py-5 flex items-center justify-between max-w-7xl mx-auto">
-        <div className="flex items-center gap-3">
-          <img
-            src="/images/logo.png"
-            alt="Mudflow Logo"
-            className="h-10 w-auto"
-          />
-
-          <span className="w-9 h-9 rounded-full bg-[#7aa36f] flex items-center justify-center text-white">
-            <Droplets size={21} />
-          </span>
-
-          <span className="font-bold text-xl">Mudflow</span>
-        </div>
+   <div className="flex items-center">
+  <img
+    src="/images/logo.png"
+    alt="Mudflow Logo"
+    className="h-16 md:h-20 w-auto"
+  />
+</div>
 
         <a
           href="#buy"
