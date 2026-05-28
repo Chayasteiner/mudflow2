@@ -36,12 +36,20 @@ export default function App() {
     alt="Mudflow Logo"
     className="h-10 w-auto"
   />
+
+         <div className="flex items-center gap-3">
+  <img
+    src="/images/logo.png"
+    alt="Mudflow Logo"
+    className="h-10 w-auto"
+  />
+
+  <span className="w-9 h-9 rounded-full bg-[#7aa36f] flex items-center justify-center text-white">
+    <Droplets size={21} />
+  </span>
+
+  Mudflow
 </div>
-          <span className="w-9 h-9 rounded-full bg-[#7aa36f] flex items-center justify-center text-white">
-            <Droplets size={21} />
-          </span>
-          Mudflow
-        </div>
 
         <a
           href="#buy"
