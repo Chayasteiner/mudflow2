@@ -96,8 +96,13 @@ export default function App() {
             className="relative"
           >
             <div className="rounded-[2rem] overflow-hidden shadow-2xl bg-white">
-              <div className="aspect-square bg-[#f4eadb] flex items-center justify-center p-8">
-                <div className="relative w-64 h-80">
+             <div className="aspect-square overflow-hidden">
+  <img
+    src="/images/hero.jpg"
+    alt="Mudflow"
+    className="w-full h-full object-cover"
+  />
+</div>
                   <div className="absolute top-0 left-8 w-56 h-72 bg-[#9b9b96] rounded-b-[2rem] rounded-t-[1.2rem] shadow-2xl border border-white/40"></div>
 
                   <div className="absolute top-0 left-8 w-56 h-20 bg-[#b7b7b2] rounded-t-[1.2rem] border border-white/50"></div>
