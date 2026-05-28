@@ -30,7 +30,13 @@ export default function App() {
   return (
     <div className="min-h-screen bg-[#f7f1e8] text-[#2b2118]">
       <header className="px-6 py-5 md:px-12 flex items-center justify-between">
-        <div className="flex items-center gap-2 font-bold text-2xl tracking-tight">
+       <div className="flex items-center gap-3">
+  <img
+    src="/images/logo.png"
+    alt="Mudflow Logo"
+    className="h-10 w-auto"
+  />
+</div>
           <span className="w-9 h-9 rounded-full bg-[#7aa36f] flex items-center justify-center text-white">
             <Droplets size={21} />
           </span>
