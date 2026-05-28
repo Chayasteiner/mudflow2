@@ -32,7 +32,7 @@ export default function App() {
       <header className="px-6 py-5 md:px-12 flex items-center justify-between">
        <div className="flex items-center gap-3">
   <img
-    src="/images/PNG.png"
+    src="/images/logo.png"
     alt="Mudflow Logo"
     className="h-10 w-auto"
   />
